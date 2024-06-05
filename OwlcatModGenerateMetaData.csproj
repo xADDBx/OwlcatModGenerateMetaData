@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<Title>OwlcatModGenerateMetaData</Title>
-		<PackageId>OwlcatModGenerateMetaData</PackageId>
+		<PackageId>Owlcat.ModGenerateMetaData</PackageId>
 		<PackageVersion>1.0.0</PackageVersion>
 		<Description>Generate Metadata for Owlcat Mod</Description>
 		<Authors>ADDB;Microsoftenator</Authors>
