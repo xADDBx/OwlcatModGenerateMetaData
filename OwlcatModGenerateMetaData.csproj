@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<Title>OwlcatModGenerateMetaData</Title>
 		<PackageId>Owlcat.ModGenerateMetaData</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
+		<PackageVersion>1.0.1</PackageVersion>
 		<Description>Generate Metadata for Owlcat Mod</Description>
 		<Authors>ADDB;Microsoftenator</Authors>
 		<PackageProjectUrl>https://github.com/xADDBx/OwlcatModGenerateMetaData</PackageProjectUrl>
@@ -11,7 +11,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<TargetFrameworks>net472</TargetFrameworks>
+		<TargetFrameworks>net481</TargetFrameworks>
 		<RootNamespace>GenerateMetaData</RootNamespace>
 		<AssemblyName>GenerateMetaData</AssemblyName>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
@@ -21,7 +21,7 @@
 		<Platforms>AnyCPU</Platforms>
 		<developmentDependency>true</developmentDependency>
 		<LangVersion>latest</LangVersion>
-		<Version>1.0.10</Version>
+		<Version>1.0.1</Version>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageReleaseNotes></PackageReleaseNotes>
 	</PropertyGroup>
@@ -38,7 +38,7 @@
 		<None Remove="*.props" />
 		<Content Include="OwlcatModGenerateMetaData.MSBuild.Task.TargetFramework.props" Pack="true" PackagePath="build\OwlcatModGenerateMetaData.props" />
 		<Content Include="OwlcatModGenerateMetaData.MSBuild.Task.TargetFrameworks.props" Pack="true" PackagePath="buildMultiTargeting\OwlcatModGenerateMetaData.props" />
-		<None Include="bin\Release\net472\Newtonsoft.Json.dll" Pack="true" PackagePath="tasks\net472" Visible="false" />
+		<None Include="bin\Release\net481\Newtonsoft.Json.dll" Pack="true" PackagePath="tasks\net481" Visible="false" />
 		<None Include="LICENSE">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
